@@ -9,7 +9,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 int count = 2;
 bool flag = false;
 Console.WriteLine("Четные числа от 1 до N: ");
-while(count < number)
+while(count <= number)
 {   flag = true;
     
     if(count%2 == 0)
